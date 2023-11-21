@@ -1,21 +1,21 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style></style></head><body><u></u>
-
-
-    
-    
-    
-    
-
-<div>
-    <form action="http://get" target="_blank"></form>
-    <div id="m_cabecalio">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>descrição de cargo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="get"></form>
+    <div id="cabecalio">
         <h2>Descrição de Cargo</h2>
     </div>
-    <div id="m_formulario">
+    <div id="formulario">
        
         
         
-        <label for="m_funcao">Função: </label>
+        <label for="funcao">Função: </label>
         <select name="funcao">
             <option value="GerenteDeRecursosHumanos">Gerente De Recursos Humanos</option>
             <option value="AnalistaDeRecursosHumanos">Analista De Recursos Humanos</option>
@@ -36,23 +36,23 @@
             <option value="AuxiliarDeCompras">Auxiliar De Compras</option>
         </select>
 
-        <label for="m_setor">Setor: </label>
+        <label for="setor">Setor: </label>
         <input type="text" name="setor">
 
         <br><br>
 
-        <label for="m_ReporteSuperior">Reporte Superior: </label>
+        <label for="ReporteSuperior">Reporte Superior: </label>
         <input type="text" name="ReporteSuperior">
 
-        <label for="m_Subordinados">Sobordinados</label>
+        <label for="Subordinados">Sobordinados</label>
         <input type="text" name="Subordinados">
 
         <br><br>
 
-        <label for="m_LocalDeTrabalho">Local De Trabalho: </label>
+        <label for="LocalDeTrabalho">Local De Trabalho: </label>
         <input type="text" name="LocalDeTrabalho">
 
-        <label for="m_RegimeDeContratacao">Regime De Contratação: </label>
+        <label for="RegimeDeContratacao">Regime De Contratação: </label>
         <select name="RegimeDeContratacao">
             <option value="CLT">CLT</option>
             <option value="Autonomo">Autonômo</option>
@@ -64,7 +64,7 @@
 
         <br><br>
 
-        <label for="m_JornadaDeTrabalhoSemanal">Jornada De Trabalho Semanal: </label>
+        <label for="JornadaDeTrabalhoSemanal">Jornada De Trabalho Semanal: </label>
         <select name="JornadaDeTrabalhoSemanal">
             <option value="20">20</option>
             <option value="30">30</option>
@@ -72,40 +72,39 @@
             <option value="44">44</option>
         </select>
 
-        <label for="m_HorarioDeTrabalho">Horario De Trabalho: </label>
+        <label for="HorarioDeTrabalho">Horario De Trabalho: </label>
         <input type="text" name="HorarioDeTrabalho">
 
         <br><br>
 
-        <label for="m_Escolaridade">Escolaridade: </label>
+        <label for="Escolaridade">Escolaridade: </label>
         <input type="text" name="Escolaridade">
 
-        <label for="m_Curso">Curso(s): </label>
+        <label for="Curso">Curso(s): </label>
         <input type="text" name="Curso">
 
         <br><br>
 
-        <label for="m_TempoDeFormacao">Tempo de Formação: </label>
+        <label for="TempoDeFormacao">Tempo de Formação: </label>
         <input type="text" name="TempoDeFormacao">
 
-        <label for="m_Especializacao">Especialização: </label>
+        <label for="Especializacao">Especialização: </label>
         <input type="text" name="Especializacao">
 
         <br><br>
 
-        <label for="m_TempoDeExperiencia">TempoDeExperiência: </label>
+        <label for="TempoDeExperiencia">TempoDeExperiência: </label>
         <input type="text" name="TempoDeExperiencia">
 
-        <label for="m_DescricaoSemariaDasAtividades">Descricao Semaria Das Atividades: </label>
+        <label for="DescricaoSemariaDasAtividades">Descricao Semaria Das Atividades: </label>
         <input type="text" name="DescricaoSemariaDasAtividades">
 
-        <label for="m_DescricaoDasCompetenciasTecnicas">Descrição Das Competencias Técnicas</label>
+        <label for="DescricaoDasCompetenciasTecnicas">Descrição Das Competencias Técnicas</label>
         <input type="text" name="DescricaoDasCompetenciasTecnicas">
 
-        <label for="m_enviar">Enviar</label>
+        <label for="enviar">Enviar</label>
         <input type="submit" name="enviar">
     </div>
     
-</div>
-
-</body></html>
+</body>
+</html>
